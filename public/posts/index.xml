@@ -9,11 +9,13 @@
     <lastBuildDate>Tue, 26 Aug 2025 14:57:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>About Myself</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Tue, 26 Aug 2025 14:57:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Hello! This is my first ever post using Hugo!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello! This is my first ever post using Hugo!&lt;/p&gt;
+&lt;p&gt;I created this website to document my Software Engineering learning journey. I will be blogging about my weekly learnings, achievements, projects and so on here.&lt;/p&gt;
+&lt;p&gt;Cheers!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

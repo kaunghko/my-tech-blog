@@ -4,7 +4,7 @@ title = "My Tech Journey"
 theme = "PaperMod"
 
 [params]
-author = "Your Name"
+author = "Kaung Htet Ko"
 description = "My blog about software engineering and machine learning."
 # For a professional look
 defaultTheme = "auto" # or "light" or "dark"

@@ -1,0 +1,24 @@
+baseURL = "https://kaunghko.github.io/"
+languageCode = "en-us"
+title = "My Tech Journey"
+theme = "PaperMod"
+
+[params]
+author = "Your Name"
+description = "My blog about software engineering and machine learning."
+# For a professional look
+defaultTheme = "auto" # or "light" or "dark"
+ShowShareButtons = true
+ShowReadingTime = true
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 20

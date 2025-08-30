@@ -1,6 +1,6 @@
 baseURL = "https://kaunghko.github.io/"
 languageCode = "en-us"
-title = "My Tech Journey"
+title = "Htet Ko's Portfolio"
 theme = "PaperMod"
 
 [params]
@@ -13,12 +13,17 @@ ShowReadingTime = true
 
 [menu]
   [[menu.main]]
-    identifier = "archives"
-    name = "Archives"
-    url = "/archives/"
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
     weight = 10
   [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
+    identifier = "experiences"
+    name = "Experiences"
+    url = "/experiences/"
     weight = 20
+  [[menu.main]]
+    identifier = "certificates"
+    name = "Certificates"
+    url = "/certificates/"
+    weight = 30

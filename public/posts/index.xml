@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My Tech Journey</title>
+    <title>Posts on Htet Ko&#39;s Portfolio</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My Tech Journey</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <description>Recent content in Posts on Htet Ko&#39;s Portfolio</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 14:57:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Myself</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 26 Aug 2025 14:57:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Hello! This is my first ever post using Hugo!&lt;/p&gt;
-&lt;p&gt;I created this website to document my Software Engineering learning journey. I will be blogging about my weekly learnings, achievements, projects and so on here.&lt;/p&gt;
-&lt;p&gt;Cheers!&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

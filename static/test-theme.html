@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switch Test</title>
+    <link rel="stylesheet" href="/css/theme-transitions.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--theme);
+            color: var(--content);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--entry);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid var(--primary);
+            background: transparent;
+            color: var(--primary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            transition: all 0.3s ease;
+        }
+        
+        .theme-toggle:hover {
+            transform: scale(1.1);
+            background-color: var(--tertiary);
+        }
+        
+        h1 {
+            color: var(--primary);
+            transition: color 0.3s ease;
+        }
+        
+        .card {
+            background-color: var(--entry);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        
+        .code-block {
+            background-color: var(--code-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 15px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">
+        🌙
+    </button>
+    
+    <div class="container">
+        <h1>Theme Switching Animation Test</h1>
+        
+        <div class="card">
+            <h2>Light/Dark Mode Transitions</h2>
+            <p>This page demonstrates smooth transitions when switching between light and dark themes. Click the theme toggle button in the top-right corner to see the animations in action.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Features</h2>
+            <ul>
+                <li>Smooth color transitions (300ms)</li>
+                <li>Background color animations</li>
+                <li>Text color transitions</li>
+                <li>Border color changes</li>
+                <li>Hover effects on the toggle button</li>
+                <li>Accessibility features</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Code Example</h2>
+            <div class="code-block">
+                <code>
+/* CSS Transition Example */
+body {
+    transition: background-color 0.3s ease, 
+                color 0.3s ease;
+}
+
+.dark {
+    --theme: rgb(29, 30, 32);
+    --content: rgb(196, 196, 197);
+}
+                </code>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Animation Details</h2>
+            <p>The theme switching uses CSS transitions with a duration of 300ms and an ease timing function. All color-related properties (background-color, color, border-color) are animated smoothly.</p>
+        </div>
+    </div>
+
+    <script src="/js/theme-toggle.js"></script>
+    <script>
+        // Simple theme toggle for this test page
+        function toggleTheme() {
+            const body = document.body;
+            const toggle = document.getElementById('theme-toggle');
+            
+            if (body.classList.contains('dark')) {
+                body.classList.remove('dark');
+                toggle.innerHTML = '🌙';
+            } else {
+                body.classList.add('dark');
+                toggle.innerHTML = '☀️';
+            }
+        }
+        
+        // Initialize theme based on system preference
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+            document.getElementById('theme-toggle').innerHTML = '☀️';
+        }
+    </script>
+</body>
+</html>

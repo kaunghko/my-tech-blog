@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>404 Page not found | My Tech Journey</title>
+<title>404 Page not found | Htet Ko&#39;s Portfolio</title>
 <meta name="keywords" content="">
 <meta name="description" content="My blog about software engineering and machine learning.">
 <meta name="author" content="Kaung Htet Ko">
@@ -56,6 +56,10 @@
 
     </style>
 </noscript>
+<link rel="stylesheet" href="http://localhost:1313/css/theme-transitions.css">
+
+
+<script defer src="http://localhost:1313/js/theme-toggle.js"></script>
 </head>
 
 <body class="list" id="top">
@@ -73,7 +77,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My Tech Journey (Alt + H)">My Tech Journey</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Htet Ko&#39;s Portfolio (Alt + H)">Htet Ko&#39;s Portfolio</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,13 +103,18 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives/" title="Archives">
-                    <span>Archives</span>
+                <a href="http://localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search/" title="Search">
-                    <span>Search</span>
+                <a href="http://localhost:1313/experiences/" title="Experiences">
+                    <span>Experiences</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/certificates/" title="Certificates">
+                    <span>Certificates</span>
                 </a>
             </li>
         </ul>
@@ -116,7 +125,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My Tech Journey</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">Htet Ko&#39;s Portfolio</a></span> · 
 
     <span>
         Powered by
@@ -129,6 +138,38 @@
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const themeToggle = document.getElementById("theme-toggle");
+        const body = document.body;
+        
+        if (!themeToggle) return;
+
+        
+        function toggleTheme() {
+            
+            body.classList.add('theme-transitioning');
+            setTimeout(() => {
+                body.classList.remove('theme-transitioning');
+            }, 300);
+            
+            if (body.className.includes("dark")) {
+                body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            } else {
+                body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            }
+        }
+
+        
+        themeToggle.addEventListener("click", function(e) {
+            e.preventDefault();
+            toggleTheme();
+        });
+    });
+</script>
 
 <script>
     let menu = document.getElementById('menu')

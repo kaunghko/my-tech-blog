@@ -1,0 +1,191 @@
+/* Theme Transition Animations */
+/* Smooth transitions for all theme-related properties */
+
+/* Apply transitions to all elements that change with theme */
+* {
+    transition: background-color 0.3s ease, 
+                color 0.3s ease, 
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Specific transitions for theme toggle button */
+#theme-toggle {
+    transition: transform 0.3s ease, 
+                background-color 0.3s ease, 
+                color 0.3s ease;
+}
+
+#theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* Smooth icon transitions */
+#theme-toggle svg {
+    transition: opacity 0.3s ease, 
+                transform 0.3s ease;
+}
+
+/* Icon rotation animation */
+#theme-toggle svg#moon {
+    transition: opacity 0.3s ease, 
+                transform 0.3s ease;
+}
+
+#theme-toggle svg#sun {
+    transition: opacity 0.3s ease, 
+                transform 0.3s ease;
+}
+
+/* Smooth transitions for specific theme elements */
+body {
+    transition: background-color 0.3s ease;
+}
+
+.header {
+    transition: background-color 0.3s ease, 
+                border-color 0.3s ease;
+}
+
+.nav {
+    transition: background-color 0.3s ease;
+}
+
+.logo a {
+    transition: color 0.3s ease;
+}
+
+#menu li a {
+    transition: color 0.3s ease, 
+                background-color 0.3s ease;
+}
+
+#menu li a:hover {
+    transition: color 0.3s ease, 
+                background-color 0.3s ease;
+}
+
+/* Content transitions */
+.entry {
+    transition: background-color 0.3s ease, 
+                border-color 0.3s ease;
+}
+
+.entry-content {
+    transition: color 0.3s ease;
+}
+
+/* Code block transitions */
+pre {
+    transition: background-color 0.3s ease, 
+                border-color 0.3s ease;
+}
+
+code {
+    transition: background-color 0.3s ease, 
+                color 0.3s ease;
+}
+
+/* Footer transitions */
+.footer {
+    transition: background-color 0.3s ease, 
+                border-color 0.3s ease;
+}
+
+/* Enhanced theme toggle button styling */
+#theme-toggle {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid transparent;
+}
+
+#theme-toggle:hover {
+    background-color: var(--tertiary);
+    border-color: var(--primary);
+}
+
+/* Smooth fade for theme toggle icons */
+#theme-toggle svg#moon,
+#theme-toggle svg#sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Dark mode icon visibility */
+.dark #theme-toggle svg#moon {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.dark #theme-toggle svg#sun {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+/* Light mode icon visibility */
+#theme-toggle svg#moon {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#theme-toggle svg#sun {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(-180deg);
+}
+
+/* Smooth page load transitions */
+body {
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Smooth theme switch animation */
+body.theme-transitioning {
+    transition: background-color 0.3s ease, 
+                color 0.3s ease;
+}
+
+/* Enhanced focus states for accessibility */
+#theme-toggle:focus {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    transition: outline 0.2s ease;
+}
+
+/* Smooth scrollbar transitions */
+::-webkit-scrollbar-track {
+    transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb {
+    transition: background-color 0.3s ease;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+    
+    body {
+        animation: none !important;
+    }
+}

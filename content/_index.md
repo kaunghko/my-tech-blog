@@ -28,5 +28,5 @@ I'm always interested in:
 
 **Email** me at kaunghtetkopma@gmail.com
 
-**Ready to build something amazing together! 🚀✨**
+Ready to build something amazing together! 🚀✨
 ---

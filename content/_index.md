@@ -5,7 +5,7 @@ description = "Software Engineering Student | Tech Enthusiast | Continuous Learn
 
 # 👋 Welcome to My Portfolio
 
-Hello! I'm **Htet Ko**, a passionate Software Engineering student.
+Hello! I'm **Htet Ko**, a passionate Software Engineering student at Ajou University.
 
 ## 📚 What You'll Find Here
 
@@ -26,6 +26,7 @@ I'm always interested in:
 - **Networking** with the tech community
 - **Contributing** to meaningful software solutions
 
----
+**Email** me at kaunghtetkopma@gmail.com
 
 **Ready to build something amazing together! 🚀✨**
+---

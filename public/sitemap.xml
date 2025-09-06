@@ -3,9 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-08-31T12:23:37+09:00</lastmod>
+    <lastmod>2025-09-06T20:50:50+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-06T20:50:50+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/topik6-in-10months/</loc>
     <lastmod>2025-08-31T12:23:37+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/about/</loc>

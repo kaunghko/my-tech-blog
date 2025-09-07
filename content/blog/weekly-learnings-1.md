@@ -1,7 +1,7 @@
 +++
 date = '2025-09-06T20:50:50+09:00'
 draft = false
-title = '[Weekly Learnings] First Week of a New Semester'
+title = '[Weekly Reflections] First Week of a New Semester'
 +++
 
 ## Course Overview

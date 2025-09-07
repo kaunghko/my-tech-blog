@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:63464/blog/weekly-learnings-1/</loc>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-09-07T22:27:12+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-07T22:27:12+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/weekly-learnings-1/</loc>
     <lastmod>2025-09-06T20:50:50+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63464/blog/</loc>
-    <lastmod>2025-09-06T20:50:50+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:63464/</loc>
-    <lastmod>2025-09-06T20:50:50+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:63464/blog/topik6-in-10months/</loc>
+    <loc>http://localhost:1313/blog/topik6-in-10months/</loc>
     <lastmod>2025-08-31T12:23:37+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63464/tags/about/</loc>
+    <loc>http://localhost:1313/tags/about/</loc>
     <lastmod>2025-08-26T14:57:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63464/blog/about-myself/</loc>
+    <loc>http://localhost:1313/blog/about-myself/</loc>
     <lastmod>2025-08-26T14:57:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63464/tags/introduction/</loc>
+    <loc>http://localhost:1313/tags/introduction/</loc>
     <lastmod>2025-08-26T14:57:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63464/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-08-26T14:57:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:63464/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:63464/certificates/</loc>
+    <loc>http://localhost:1313/certificates/</loc>
   </url><url>
-    <loc>http://localhost:63464/experiences/</loc>
+    <loc>http://localhost:1313/experiences/</loc>
   </url>
 </urlset>

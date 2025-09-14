@@ -4,7 +4,7 @@
     <title>Blog on Htet Ko&#39;s Portfolio</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blog on Htet Ko&#39;s Portfolio</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Sep 2025 22:27:12 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -47,7 +47,15 @@
 &lt;p&gt;Open &lt;code&gt;Domain List&lt;/code&gt; → &lt;code&gt;Manage&lt;/code&gt; → &lt;code&gt;Advanced DNS&lt;/code&gt;, then add:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[Weekly Learnings] First Week of a New Semester</title>
+      <title>[Weekly Reflections]</title>
+      <link>http://localhost:1313/blog/weekly-learnings-2/</link>
+      <pubDate>Sat, 06 Sep 2025 20:50:50 +0900</pubDate>
+      <guid>http://localhost:1313/blog/weekly-learnings-2/</guid>
+      <description>&lt;h2 id=&#34;courses-overview&#34;&gt;Courses Overview&lt;/h2&gt;
+&lt;p&gt;The courses are demanding, but rewarding as expected. Since I am thinking about pursuing the Machine Learning career, I am giving more focus to mathematics subjects such as Linear Algebra 1 and Probability and Statistics 1. Sometimes, I find the formula derivation and theory proofs a little bit challenging. Maybe because throughout my whole academic journey I have focused more on application of theories, rather than trying to understand why some theories are the way they are. I need to develop my critical thinking skills more.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Weekly Reflections] First Week of a New Semester</title>
       <link>http://localhost:1313/blog/weekly-learnings-1/</link>
       <pubDate>Sat, 06 Sep 2025 20:50:50 +0900</pubDate>
       <guid>http://localhost:1313/blog/weekly-learnings-1/</guid>
